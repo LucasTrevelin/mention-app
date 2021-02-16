@@ -1,0 +1,11 @@
+Garantir que o pip, o python-venv e o poetry estão instalados
+(curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -) e (source $HOME/.poetry/env)
+Entra na pasta do projeto (customer-api)
+cd auth/backend/app/
+poetry install
+Se não quiser criar uma venv, usar a do poetry (source /home/capizani/.cache/pypoetry/virtualenvs/sua_venv/bin/activate)
+Executar (uvicorn app.main:app --reload
+
+
+feature/AG-1669-as-admin-I-want-to-login-in-Agrymax-API 
+
